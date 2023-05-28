@@ -7,14 +7,16 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/app.css" />
     <title>paragon</title>
   </head>
-  <body class="relative">
+  <body class="reltive">
     <header
-      class="flex items-center justify-between py-10 px-40 absolute z-100 w-full">
-      <div>
+      class="flex items-center justify-between py-10 px-6 xl:px-40 absolute z-100 w-full">
+      <div class="w-full lg:w-auto flex justify-between">
         <a href=""><img src="./assets/image/Logo.svg" alt="" /></a>
+        <img class="block lg:hidden" src="./assets/image/Vector1.png" alt="" />
       </div>
       <div>
-        <ul class="flex items-center gap-24 text-indigo-700 font-semibold">
+        <ul
+          class="hidden lg:flex items-center gap-24 text-indigo-700 font-semibold">
           <li><a href="">Product</a></li>
           <li><a href="">Company</a></li>
           <li><a href="">Open Account</a></li>
@@ -27,16 +29,16 @@
       </div>
     </header>
     <section
-      class="bg-cover w-full h-screen top-0 p-40"
+      class="bg-cover w-full lg:h-screen top-0 p-6 lg:p-40"
       style="background-image: url(./assets/image/Background-img.svg)">
-      <div class="grid grid-cols-4 gap-20 items-center">
-        <div class="col-span-2 max-w-full mx-auto">
+      <div class="grid lg:grid-cols-2 lg:gap-20 items-center">
+        <div class="py-20 mx-auto">
           <h1
-            class="text-8xl bg-gradient-to-r from-indigo-800 to-green-600 via-green-700 bg-clip-text text-transparent font-extrabold">
+            class="text-4xl lg:text-8xl bg-gradient-to-r from-indigo-800 to-green-600 via-green-700 bg-clip-text text-transparent font-extrabold">
             The Best <br />
             Payment Experiences
           </h1>
-          <p class="text-indigo-800 w-2/3 pt-5 text-xl">
+          <p class="text-indigo-800 max-w-max lg:w-2/3 pt-5 lg:text-xl text-sm">
             We make all Payment easier and simpler. Recieve and send payment
             funds without cash.Paragon makes moving money as simple.
           </p>
@@ -52,27 +54,31 @@
             </div>
           </div>
         </div>
-        <div class="col-span-2">
+        <div class="pb-5">
           <img src="./assets/image/illus.svg" alt="" />
         </div>
       </div>
     </section>
-    <section class="py-20 px-40 flex items-center justify-between">
-      <img src="./assets/image/Visa Inc. svg.svg" alt="" />
-      <img src="./assets/image/Amazon svg.svg" alt="" />
-      <img src="./assets/image/Stripe svg.svg" alt="" />
-      <img src="./assets/image/PayPal svg.svg" alt="" />
-      <img src="./assets/image/Payoneer svg.svg" alt="" />
+    <section
+      class="py-6 px-6 lg:py-10 lg:my-32 lg:px-40 grid lg:grid-cols-5 grid-cols-2 gap-10">
+      <img src="./assets/image/visa.png" alt="" />
+      <img src="./assets/image/amazon.png" alt="" />
+      <img src="./assets/image/Stripe.png" alt="" />
+      <img src="./assets/image/Paypal.png" alt="" />
+      <img src="./assets/image/payo.png" alt="" />
     </section>
 
-    <section class="relative p-40">
-      <div class="bg-indigo-800 w-24 h-24 rounded-full absolute -left-16"></div>
+    <section class="relative p-6 lg:p-40">
+      <div
+        class="hidden lg:bg-indigo-800 w-24 h-24 rounded-full absolute -left-16"></div>
 
-      <div class="flex justify-between">
+      <div class="lg:flex lg:justify-between">
         <div class="">
-          <p class="text-red-700 text-xl font-bold">Why Choose US</p>
-          <h1 class="text-7xl font-bold w-2/4 pt-2">Simple & Safe Banking</h1>
-          <p class="w-2/3 py-4 text-lg">
+          <p class="text-red-700 text-sm lg:text-xl font-bold">Why Choose US</p>
+          <h1 class="text-4xl lg:text-7xl font-bold lg:w-2/4 lg:pt-2">
+            Simple & Safe Banking
+          </h1>
+          <p class="lg:w-2/3 py-4 text-lg">
             We provide the best services for you so that you understand how to
             use and get to know the features that will provide.
           </p>
@@ -81,7 +87,7 @@
           >
         </div>
         <div class="">
-          <div class="bg-white w-96 h-32 shadow-lg border-1 p-4">
+          <div class="bg-white lg:w-96 lg:h-32 shadow-lg border-1 p-10 lg:p-4">
             <div class="flex items-center gap-1">
               <img class="w-8" src="./assets/image/Frame 486.png" alt="" />
               <p class="font-semibold">Safe and realiable</p>
@@ -90,17 +96,19 @@
               No need to worry about Paragona user data security is very safe
             </p>
           </div>
-          <div class="bg-white w-96 h-32 shadow-lg border-1 p-4 mt-4 ml-48">
+          <div
+            class="bg-white lg:w-96 lg:h-32 shadow-lg border-1 p-10 lg:p-4 mt-4 lg:ml-48">
             <div class="flex items-center gap-1">
               <img class="w-8" src="./assets/image/Frame 486 (1).png" alt="" />
               <p class="font-semibold">Easy Transactione</p>
             </div>
-            <p class="text-sm text-indigo-500 pt-4">
+            <p class="text-sm text-indigo-500 lg:pt-4">
               We have an easy-to-understand application flow for you to use for
               transaction
             </p>
           </div>
-          <div class="bg-white w-96 h-32 shadow-lg border-1 p-4 mt-4 ml-20">
+          <div
+            class="bg-white lg:w-96 lg:h-32 shadow-lg border-1 p-10 lg:p-4 mt-4 lg:ml-20">
             <div class="flex items-center gap-1">
               <img class="w-8" src="./assets/image/Frame 486 (2).png" alt="" />
               <p class="font-semibold">Safe and realiable</p>
@@ -112,16 +120,16 @@
         </div>
       </div>
     </section>
-    <section class="relative py-40 px-80">
+    <section class="relative py-10 px-6 lg:py-40 lg:px-80 overflow-hidden">
       <div
-        class="bg-accent3-700 w-24 h-24 rounded-full absolute -right-16"></div>
-      <div class="flex gap-36">
+        class="hidden lg:bg-accent3-700 lg:w-24 lg:h-24 lg:rounded-full lg:absolute lg:-right-16"></div>
+      <div class="lg:flex lg:flex-wrap lg:gap-36">
         <img src="./assets/image/Group 14.png" alt="" />
         <div>
-          <p class="text-red-600 text-sm">HOW IT WORKS</p>
+          <p class="pt-10 text-red-600 lh:text-sm">HOW IT WORKS</p>
           <h1 class="text-4xl font-bold">Starting is Easy</h1>
           <p>Sign up in seconds with these 3 quick steps. No hassle.</p>
-          <div class="flex flex-col gap-20 pt-6">
+          <div class="hidden lg:flex lg:flex-col lg:gap-20 lg:pt-6">
             <div class="flex gap-2">
               <img class="z-110" src="./assets/image/Group 15.png" alt="" />
               <div class="text-indigo-500">
@@ -144,20 +152,22 @@
               </div>
             </div>
           </div>
-          <div class="w-1 bg-black h-80 absolute right-/5 ml-7 bottom-96"></div>
+          <div
+            class="hidden lg:w-1 lg:bg-black lg:h-80 absolute lg:right-/5 lg:ml-7 lg:bottom-96"></div>
         </div>
       </div>
-      <div class="flex items-center justify-center pt-6">
+      <div class="hidden lg:flex lg:items-center lg:justify-center lg:pt-6">
         <a class="bg-indigo-800 rounded-sm text-white p-2 text-xl" href=""
           >Create an Account</a
         >
       </div>
     </section>
-    <section class="py-40 px-80">
-      <div class="bg-indigo-800 w-24 h-24 rounded-full absolute -left-16"></div>
-      <div class="flex items-center gap-10">
-        <div class="flex flex-col gap-6">
-          <h1 class="text-6xl font-bold w-1/4">Download App</h1>
+    <section class="px-6 py-24 lg:py-40 lg:px-80">
+      <div
+        class="hidden lg:bg-indigo-800 lg:w-24 lg:h-24 lg:rounded-full lg:absolute lg:-left-16"></div>
+      <div class="lg:flex lg:items-center gap-10">
+        <div class="lg:flex lg:flex-col gap-6">
+          <h1 class="text- lg:text-6xl font-bold w-1/4">Download App</h1>
           <p class="text-indigo-500 w-3/4">
             We make all Payment easier and simpler. Recieve and send payment
             funds without cash.Paragon makes moving money as simple.
